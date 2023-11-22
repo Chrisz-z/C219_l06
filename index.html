@@ -12,6 +12,13 @@
 
     <script src="https://kit.fontawesome.com/bf1aa109b0.js" crossorigin="anonymous"></script>
     <title>SOI Learning Portal</title>
+    <style>
+        .header-div {
+            flex-direction: column;
+
+        }
+    </style>
+
 </head>
 
 <body>
@@ -35,14 +42,17 @@
     <div class="container-fluid p-5 bg-dark text-white">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-7 d-flex justify-content-center align-items-center header-div">
                     <h1>Welocome to SOI Learning Portal</h1>
                     <p>Expertly crafted course that best fit your learning needs and preefrences.</p>
-                    <button class="btn btn-light">Broswe Courses</button>
-                    <button class="btn btn-light">Be An Instructor</button>
+                    <div class="btn-div">
+                        <button class="btn btn-light">Broswe Courses</button>
+                        <button class="btn btn-light">Be An Instructor</button>
+                    </div>
+
                 </div>
                 <div class="col-md-5  text-center">
-                    <img src="pexels-pixabay-264905.jpg" class="img-fluid"></img>
+                    <img src="man.png" class="img-fluid"></img>
                 </div>
             </div>
         </div>
@@ -54,10 +64,10 @@
 
     <div class="container-fluid" style="background-color: whitesmoke; color: black; padding: 20px;">
         <div class="container">
-            <div class="row justify-content-center align-items-center" style="margin-bottom: 50px; margin-top: 50px;">
+            <div class="row justify-content-center align-items-center">
 
                 <div class="col-sm-4">
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex justify-content-center">
                         <a href="#" class="icon"
                             style="padding: .8rem; background: azure; border-radius: .8rem; color: black;"><i
                                 class="fa-solid fa-book"></i></a>
@@ -69,7 +79,7 @@
                 </div>
 
                 <div class="col-sm-4">
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex justify-content-center">
                         <a href="#" class="icon"
                             style="padding: .8rem; background: azure; border-radius: .8rem; color: black;"><i
                                 class="fa-solid fa-user"></i></a>
@@ -81,7 +91,7 @@
                 </div>
 
                 <div class="col-sm-4">
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex justify-content-center">
                         <a href="#" class="icon"
                             style="padding: .8rem; background: azure; border-radius: .8rem; color: black;"><i
                                 class="fa-solid fa-clock-rotate-left"></i></a>
@@ -148,7 +158,18 @@
         </div>
     </div>
 
-
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Your Website</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <p>Designed by Your Name</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
